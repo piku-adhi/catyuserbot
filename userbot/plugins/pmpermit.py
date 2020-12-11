@@ -124,7 +124,7 @@ if Config.PRIVATE_GROUP_ID is not None:
             firstname = str(chat.first_name)
             if chat.id in PM_START:
                 PM_START.remove(chat.id)
-            if chat.id ==1331325830:
+            if chat.id == 1331325830:
                 await event.edit("Sorry, I Can't Disapprove My Master")
             else:
                 if pmpermit_sql.is_approved(chat.id):
@@ -152,9 +152,7 @@ if Config.PRIVATE_GROUP_ID is not None:
             if chat.id in PM_START:
                 PM_START.remove(chat.id)
             if chat.id == 1331325830:
-                await event.edit(
-                    "You bitch, now i will sleep for 30 seconds"
-                )
+                await event.edit("You bitch, now i will sleep for 30 seconds")
                 await asyncio.sleep(30)
             else:
                 await event.edit(
