@@ -28,18 +28,18 @@ async def _(event):
         if not event.is_private:
             return
         PM = (
-            "Hello. You are accessing the availabe menu of my master, "
+            "ആഹാ നമസ്കാരം , "
             f"{DEFAULTUSER}.\n"
-            "__Let's make this smooth and let me know why you are here.__\n"
-            "**Choose one of the following reasons why you are here:**\n\n"
-            "`a`. To chat with my master\n"
-            "`b`. To spam my master's inbox.\n"
-            "`c`. To enquire something\n"
-            "`d`. To request something\n"
+            "__അണ്ണൻ ഇപ്പൊ വരും.__\n"
+            "**ആരാ എന്താ എന്തു വേണം:**\n\n"
+            "`a`. To chat \n"
+            "`b`. To spam.\n"
+            "`c`. request\n"
+            "`d`. friendly chat\n"
         )
         ONE = (
-            "__Okay. Your request has been registered. Do not spam my master's inbox.You can expect a reply within 24 light years. He is a busy man, unlike you probably.__\n\n"
-            "**⚠️ You will be blocked and reported if you spam nibba. ⚠️**\n\n"
+            "__Okay.നിൽ ഇപ്പൊ വരും .__\n\n"
+            "**എടാ നാറി ഒന്ന് അടങ്ങി ഇരിട നിന്നേ ഈ ഏരിയ കണ്ടുപോകരുത്⚠️**\n\n"
             "__Use__ `/start` __to go back to the main menu.__"
         )
         TWO = " `███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ `\n\n**So uncool, this is not your home. Go bother someone else. You have been blocked and reported until further notice.**"
