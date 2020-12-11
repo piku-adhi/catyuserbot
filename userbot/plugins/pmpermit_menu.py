@@ -28,7 +28,7 @@ async def _(event):
         if not event.is_private:
             return
         PM = (
-            "ആഹാ നമസ്കാരം , "
+            "ആഹാ നമസ്കാരം സുഖമോ  , "
             f"{DEFAULTUSER}.\n"
             "__അണ്ണൻ ഇപ്പൊ വരും.__\n"
             "**ആരാ എന്താ എന്തു വേണം:**\n\n"
