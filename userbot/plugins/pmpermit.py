@@ -12,7 +12,7 @@ PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 CACHE = {}
 PMPERMIT_PIC = Config.PMPERMIT_PIC
-USER_BOT_WARN_ZERO = "You were spamming my peru master's inbox, henceforth you are blocked by my master's userbot. **Now GTFO, i'm playing minecraft** "
+USER_BOT_WARN_ZERO = "നിങ്ങൾ എന്ത് വെറുപ്പിക്കൽ ആണ് പൊയ്ക്കോ എവിടേക്ക് എങ്കിലും** "
 
 if Config.PRIVATE_GROUP_ID is not None:
 
@@ -107,7 +107,7 @@ if Config.PRIVATE_GROUP_ID is not None:
                 if pmpermit_sql.is_approved(chat.id):
                     pmpermit_sql.disapprove(chat.id)
                     await event.edit(
-                        "Disapproved to pm [{}](tg://user?id={})".format(
+                        "ആ മൂലക് മാറി ഇരി ഹമുകേ [{}](tg://user?id={})".format(
                             firstname, chat.id
                         )
                     )
@@ -124,7 +124,7 @@ if Config.PRIVATE_GROUP_ID is not None:
             firstname = str(chat.first_name)
             if chat.id in PM_START:
                 PM_START.remove(chat.id)
-            if chat.id == 1118936839:
+            if chat.id ==1331325830:
                 await event.edit("Sorry, I Can't Disapprove My Master")
             else:
                 if pmpermit_sql.is_approved(chat.id):
@@ -151,9 +151,9 @@ if Config.PRIVATE_GROUP_ID is not None:
             chat = await event.get_chat()
             if chat.id in PM_START:
                 PM_START.remove(chat.id)
-            if chat.id == 1118936839:
+            if chat.id == 1331325830:
                 await event.edit(
-                    "You bitch tried to block my Creator, now i will sleep for 30 seconds"
+                    "You bitch, now i will sleep for 30 seconds"
                 )
                 await asyncio.sleep(30)
             else:
@@ -241,7 +241,7 @@ if Config.PRIVATE_GROUP_ID is not None:
             chat_id = event.sender_id
             USER_BOT_NO_WARN = (
                 f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={chat_id})\n\n"
-                "This is Auto generated Message from SurCat Security Service⚠️.\n"
+                "ആരാ എന്താ എന്ത് വേണം ⚠️.\n"
                 f"Hi buddy my master {mention}❤️ haven't approved you yet. so ,"
                 "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years🔥.\n\n"
                 "⭕️**Send** `/start` ** so that my master can decide why you're here.**⭕️"
@@ -305,7 +305,7 @@ if Config.PRIVATE_GROUP_ID is not None:
                     )
                 else:
                     USER_BOT_NO_WARN = (
-                        "This is Auto generated Message from SurCat Security Service⚠️.\n"
+                        "ആരാ എന്താ എന്ത് വേണം ⚠️.\n"
                         f"Hi buddy my master {mention}❤️ haven't approved you yet. so ,"
                         "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years🔥.\n\n"
                         "⭕️**Send** `/start` ** so that my master can decide why you're here.**⭕️"
@@ -321,7 +321,7 @@ if Config.PRIVATE_GROUP_ID is not None:
                 else:
                     USER_BOT_NO_WARN = (
                         f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={chat_id})\n\n"
-                        "This is Auto generated Message from SurCat Security Service⚠️.\n"
+                        "ആരാ എന്താ എന്ത് വേണം ⚠️.\n"
                         f"Hi buddy my master {mention}❤️ haven't approved you yet. so ,"
                         "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years🔥.\n\n"
                         "⭕️**Send** `/start` ** so that my master can decide why you're here.**⭕️"
@@ -346,7 +346,7 @@ if Config.PRIVATE_GROUP_ID is not None:
             chat_id = event.sender_id
             USER_BOT_NO_WARN = (
                 f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={chat_id})\n\n"
-                "This is Auto generated Message from SurCat Security Service⚠️.\n"
+                "ആരാ എന്താ എന്ത് വേണം ⚠️.\n"
                 f"Hi buddy my master {mention}❤️ haven't approved you yet. so ,"
                 "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years🔥.\n\n"
                 "⭕️**Send** `/start` ** so that my master can decide why you're here.**⭕️"
@@ -410,7 +410,7 @@ if Config.PRIVATE_GROUP_ID is not None:
                 else:
                     USER_BOT_NO_WARN = (
                         f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={catid})\n\n"
-                        "This is Auto generated Message from SurCat Security Service⚠️.\n"
+                        "ആരാ എന്താ എന്ത് വേണം ⚠️.\n"
                         f"My master {mention}❤️ haven't approved you yet. Don't spam his inbox "
                         "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years."
                     )
@@ -437,7 +437,7 @@ CMD_HELP.update(
         "pmpermit": "__**PLUGIN NAME :** Pm Permit__\
 \n\n** CMD ➥** `.approve`\
 \n**USAGE   ➥  **Approves the mentioned/replied person to PM.\
-\n\n** CMD ➥** `.disapprove`\
+\n\n** CMD ➥** `.d`\
 \n**USAGE   ➥  **Dispproves the mentioned/replied person to PM.\
 \n\n** CMD ➥** `block`\
 \n**USAGE   ➥  **Blocks the person.\
