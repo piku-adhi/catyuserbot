@@ -1,5 +1,5 @@
 
-# CAT USERBOT
+# MT OFFICIAL CAT USER BOT 
 
 ### The Easy Way to deploy the bot
 Get APP ID and API HASH from [HERE](https://my.telegram.org) and BOT TOKEN from [Bot Father](https://t.me/botfather) and then Generate stringsession by clicking on run.on.repl.it button below and then click on deploy to heroku . Before clicking on deploy to heroku just click on fork and star just below
@@ -18,7 +18,7 @@ Get APP ID and API HASH from [HERE](https://my.telegram.org) and BOT TOKEN from 
 </p>
 
 
-[![catuserbot logo](https://telegra.ph/file/7e1e89621fabbf02596f8.jpg)](https://heroku.com/deploy?template=https://github.com/piku-adhi/catyuserbot)
+[![catuserbot logo](https://telegra.ph/file/925fcce5b7a73a41863b8.jpg)](https://heroku.com/deploy?template=https://github.com/piku-adhi/catyuserbot)
 
 
 ### Join [here](https://t.me/catuserbot17) for updates and tuts and [here](https://t.me/catuserbot_support) for discussion and bugs
