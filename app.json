@@ -1,7 +1,7 @@
 {
-  "name": "Catuserbot",
+  "name": "Mt user bot ",
   "description": "A telethon userbot based on snapdragon code(xtratgbot) .Easy to use and friendly bot . Maintained by Sandeep and Sarath ",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "logo": "https://telegra.ph/file/925fcce5b7a73a41863b8.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Sur-vivor/CatUserbot/",
+  "repository": "https://github.com/piku-adhi/catyuserbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -62,7 +62,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: Sur-vivor/CatUserbot, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: piku-adhi/catyuserbot, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false  
     },
@@ -73,7 +73,7 @@
     },    
     "MAX_FLOOD_IN_P_M_s": {
       "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 6 by default.",
-      "value": "6",
+      "value": "0",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
@@ -83,7 +83,7 @@
     },
     "REM_BG_API_KEY": {
       "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
+      "value": "k5FiNyen1QK1AUw1qEfzdERi",
       "required": false
     },
     "ALIVE_PIC": {
@@ -99,7 +99,7 @@
     "PMPERMIT_PIC": {
       "description": "the pic that to show in your pmpermit message url.",
       "value": "",
-      "required": false  
+      "required": true,  
     },
     "LYDIA_API_KEY": {
       "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
@@ -145,4 +145,4 @@
   },{
     "url": "heroku/python"
   }]
-}
+}8
